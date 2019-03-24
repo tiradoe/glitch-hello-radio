@@ -1,0 +1,51 @@
+.hidden {
+  display:none;
+}
+
+.centered {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.background {
+  background-image: url("https://cdn.glitch.com/acf77c83-3cb9-4027-ad01-aa2407f3d85d%2Fdarkness.png?1553399169600");
+}
+
+h1, h2 {
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  margin-top: 2em;
+}
+
+h2 {
+  margin-bottom: 2em;
+}
+
+#current-track {
+  width: 200px;
+  height: 200px;
+  margin: 1em;
+}
+
+#current-track-name {
+  font-weight: bold;
+  display: block;
+}
+
+#button-container {
+  text-align: center;
+  color: white;
+  margin: 2em;
+}
+
+#player-container {
+  text-align: center;
+  border: solid #a1e0c0;
+  width: 400px;
+  background-color: white;
+  margin: 0 auto;
+  margin-bottom: 1em;
+}
