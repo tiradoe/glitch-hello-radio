@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    <title>Hello Radio</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="app.css" rel="stylesheet" />
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"></script>
+    
+    <!-- Include the Web Playback SDK -->
+    <script src="https://sdk.scdn.co/spotify-player.js"></script>
+    
+    <!-- Include our Javascript -->
+    <script src="/script.js" defer></script>
+  </head>
+  
+  <body class="container-fluid background">
+    <h1>Hello Radio</h1>
+    <h2>
+      Hello. Hola. 你好. Salut.
+    </h2>
+
+    <div id="player-row" class="hidden container">
+      <div class="row centered">
+        <div class="col-sm">
+          <img src="https://media.giphy.com/media/7isbcNAx367qU/giphy.gif" class="dancer hidden"/>
+        </div>
+        <div id="player-container" class="col-sm">
+          <span>Now Playing: </span>
+          <span id="current-track-name"></span>
+          <img id="current-track"/>   
+        </div>
+        <div class="col-sm">
+          <img src="https://media.giphy.com/media/aq5y9pmdYB2Ny/giphy.gif" class="dancer hidden"/>
+        </div>
+      </div> <!-- end row -->
+    </div> <!-- end container -->
+
+    <div id="button-container">
+      <span id="loading">Connecting to Spotify...</span>
+      <a id="play-button" class="btn btn-success btn-lg hidden">Say Hello</a>
+    </div>
+    
+    <div id="lionel-container" class="centered hidden">
+      <img id="lionel" src="https://media.giphy.com/media/9s7vmtZTzoiqs/giphy.gif" />
+    </div>
+  </body>
+</html>
